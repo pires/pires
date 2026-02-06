@@ -19,7 +19,7 @@ jobs:
           base: achievements
           plugin_achievements: yes
           plugin_achievements_threshold: B      # Display achievements with rank B or higher
-          plugin_achievements_display: compact  # Use compact display
+          plugin_achievements_display: detailed 
 
   github-metrics:
     runs-on: ubuntu-latest
